@@ -78,3 +78,13 @@ a {
   background-image: linear-gradient(to right, #d50e50, #d0dd28);
   box-shadow: 0 4px 15px 0 rgba(50, 0, 75, 0.75);
 }
+
+@media (max-width: 768px) {
+  img {
+    width: 300px;
+  }
+
+  a {
+    width: 300px;
+  }
+}
